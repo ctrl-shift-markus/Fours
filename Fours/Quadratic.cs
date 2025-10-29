@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FoursLibrary;
+namespace Fours;
 public class Quadratic
 {
 
@@ -36,7 +36,7 @@ public class Quadratic
     public static bool GraphDirection(double a) =>
         a > 0;
 
-    // Solves the y value
+    // Finds the y coordinate on the parabola at a specific x position
     public static double FindY(double a, double b, double c, double x) =>
         (a * x * x) + (b * x) + c;
 
