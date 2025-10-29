@@ -3,7 +3,6 @@ using System.Diagnostics;
 
 namespace Fours;
 
-[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
 public class Conversions
 {
     public class Temperature
