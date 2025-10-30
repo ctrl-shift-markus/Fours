@@ -5,20 +5,27 @@ Fours is an open-source 'ever-growing maths library' coded and maintained by [ct
 
 ## Installation
 ### Pre-compiled (Recommended)
-- Download the compiled Fours.dll file from the [Releases](https://www.github.com/ctrl-shift-markus/fours/releases) page
-- Open your Solution Explorer for your project
-- Right-click 'Dependencies' and click 'Add Project Reference'
-- Click 'Browse'
-- Select Fours.dll (this should be in your downloads)
-
-### Manual
-- Download source code
-- `cd` to the root folder (where the .sln file is)
-- Run `dotnet build`
-- Open your Solution Explorer for your project
-- Right-click 'Dependencies' and click 'Add Project Reference'
-- Click 'Browse'
+- Download Fours.dll from the [Releases](https://www.github.com/ctrl-shift-markus/fours/releases) page
+---
+- Open your project you wish to use Fours with
+- Open your Solution Explorer (View -> Solution Explorer)
+- Right-click 'Dependencies' in the Solution Explorer and click 'Add Project Reference' on the dropdown
+- Click 'Browse' at the bottom of the window
 - Select Fours.dll (this should be where you built the file)
 
+### Manual
+- Clone the repository using `git clone https://github.com/ctrl-shift-markus/Fours.git`
+- Enter the cloned repository using `cd Fours`
+- Build the .dll using `dotnet build --configuration Release` or `dotnet build -c Release` - they're the same
+---
+- Open your project you wish to use Fours with
+- Open your Solution Explorer (View -> Solution Explorer)
+- Right-click 'Dependencies' in the Solution Explorer and click 'Add Project Reference' on the dropdown
+- Click 'Browse' at the bottom of the window
+- Select Fours.dll (this should be where you built the file)
+
+## Usage
+For all the classes, constants and functions Fours has, please check the wiki as the README would be too big if we squashed it all in here!
+
 ## Contributing
-If you notice something wrong or want to improve, feel free to open an issue!
+If you notice something wrong or want to improve, feel free to open an issue using an appropiate tag (e.g. 'documentation' for missing wiki article, 'bug' for function not giving a correct answer)!
