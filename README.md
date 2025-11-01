@@ -25,7 +25,7 @@ Fours is an open-source 'ever-growing maths library' coded and maintained by [ct
 - Select Fours.dll (this should be where you built the file)
 
 ## .NET
-Fours' framework is currently **.NET 8.0**, the latest LTS version of .NET, which has improved features and new additions all while having a long support term. Fours will always only upgrade to the latest LTS version of .NET so that Fours can stay backwards-compatible, stable and not break your computer because the latest version of .NET ran `sudo rm -rf / --no-preserve-root` while building. Fours is designed to be as bloatless and independent as possible, and I hope to make sure all current and future code will stick to C# standards and be uniform so that's it's easy to read and contribute.
+Fours' framework is currently **.NET 8.0**, the latest LTS version of .NET, which has improved features and new additions all while having a long support term, and will always only upgrade to the latest LTS version of .NET, so that this library can stay stable and backwards compatible. With the upcoming release of **.NET 10.0**, Fours will be upgraded in December - a month after - so that there is enough time to upgrade your runtime and projects.
 
 ## Wiki
-For a wiki dedicated to Fours, including **every single** variable, function and class, please feel free to pop by the [Fours wiki](https://github.com/ctrl-shift-markus/Fours/wiki). The wiki contains in-depth information about each major class and how to use their functions.
+For a wiki dedicated to Fours, including **every single** variable, function and class, please feel free to pop by the [Fours wiki](https://github.com/ctrl-shift-markus/Fours/wiki). The wiki contains readable yet useful information about each class and how to use their functions.
