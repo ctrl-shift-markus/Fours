@@ -13,5 +13,5 @@ If you see a documentation mistake, room for a new feature or a bug, it's recomm
 
 ## Pull Requests
 
-If you've forked the repo, made your changes and feel happy with it, it's time to open a pull request to submit what you've done! Once you make sure your new code follows the existing style of code, isn't fully vibe coded (asking AI to review your code or explain how to do something, but if you've generated 5 new classes and submitted it, that's something else), and has been tested and compiled for no errors, submit the pull request and expect a response within a week or so. Make sure all pull requests target the main branch, and please don't make pull requests for adding your name to README.md!
+If you've forked the repo, made your changes and feel happy with it, it's time to open a pull request to submit what you've done! Once you make sure your new code follows the existing style of code, isn't fully vibe coded (asking AI to review your code or explain how to do something is fine, but if you've generated 5 new classes and submitted it, that's something else), and has been tested and compiled for no errors, submit the pull request and expect a response within a week or so. Make sure all pull requests target the main branch, and please don't make pull requests for adding your name to README.md!
 
